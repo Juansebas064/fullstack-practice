@@ -1,11 +1,16 @@
+h1 {
+    text-align: center;
+    margin-top: 25vh;
+}
+
 .container {
-    position: relative;
-    top: 35vh;
-    left: 0;
     border: 4px solid darkslategray;
+    border-radius: 8px;
+    height: 30vh;
+    /* Flex properties */
     display: flex;
-    justify-content: space-evenly;
-    padding: 40px 0;
+    justify-content: flex-end;
+    /* align-items: center; */
 }
 
 .items {
@@ -15,7 +20,9 @@
     font-weight: bold;
     background-color: darksalmon;
     margin: 4px;
+    /* padding: 15px; */
+    /* border-radius: 6px; */
     text-align: center;
-    padding: 20px;
-    border-radius: 6px;
+    /* Flex properties */
+
 }
