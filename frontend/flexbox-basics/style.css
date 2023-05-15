@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    top: 35vh;
+    left: 0;
+    border: 4px solid darkslategray;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.items {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: darksalmon;
+    margin: 4px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+}
