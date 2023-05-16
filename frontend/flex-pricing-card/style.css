@@ -1,0 +1,122 @@
+
+/* Standard values */
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    background-color: #e6eff6;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 0;
+    padding: 40px;
+}
+
+/* Dimensions of the card */
+.card {
+    width: 80vw;
+    height: auto;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.43);
+}
+
+/* For devices with 800px width or more */
+@media (min-width: 800px) {
+    .bottom {
+        /* Flex container properties */
+        display: flex;
+    }
+    .b-left, .b-right {
+        flex-basis: 50%;
+    }
+}
+
+/* Styles */
+h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2bb3b1;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+h4 {
+    color: #bfdf32;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.top {
+    color: #b0b0b0;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.b-left {
+    background-color: #2bb3b1;
+    color: white;
+}
+
+.b-left button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #bfdf32;
+    border: 0px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+.b-left button:hover {
+    cursor: pointer;
+    background-color: rgba(191, 223, 50, 0.8);
+}
+
+.price-container p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.price-container {
+    margin-bottom: 10px;
+}
+
+.price {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.price + p {
+    color: #b6d5d6;
+}
+
+.b-right {
+    background-color: #4ec9c8;
+}
+
+ul {
+    color: #f2f2f2;
+    list-style: none;
+    padding: 0;
+}
