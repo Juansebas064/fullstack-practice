@@ -1,5 +1,6 @@
 import reactLogo from './assets/react.svg'
 import SearchBar from './SearchBar'
+import NavbarUser from './NavbarUser'
 
 export default function Navbar() {
   return (
@@ -17,8 +18,10 @@ export default function Navbar() {
           </div>
         </div>
         {/* Barra de búsqueda */}
-        <SearchBar />
-
+        <div className="flex items-center w-auto">
+          <SearchBar />
+          <NavbarUser />
+        </div>
       </nav>
     </>
   )

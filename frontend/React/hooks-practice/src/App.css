@@ -1,0 +1,21 @@
+#root {
+  padding: 40px;
+}
+
+li,
+p {
+  font-size: 25px;
+}
+
+form {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+form input {
+  font-size: 25px;
+}
+
+.done {
+  text-decoration: line-through;
+}
